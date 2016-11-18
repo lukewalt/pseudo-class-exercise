@@ -1,2 +1,11 @@
 
 /*<----------------- Pseudo Class ------------------>*/
+
+#main-nav {
+  display: flex;
+}
+
+.top > li {
+  list-style: none;
+  display: inline;
+}
