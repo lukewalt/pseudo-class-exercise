@@ -5,7 +5,13 @@
   display: flex;
 }
 
-.top > li {
+.block {
   list-style: none;
   display: inline;
+}
+
+.inline {
+  display: block;
+  border: 1px solid black;
+  margin: 25px;
 }
