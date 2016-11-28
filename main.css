@@ -1,0 +1,22 @@
+
+/*<----------------- Pseudo Class ------------------>*/
+
+#main-nav {
+  display: flex;
+}
+
+.block {
+  list-style: none;
+  display: inline;
+}
+
+.inline {
+  display: block;
+  border: 1px solid black;
+  margin: 25px;
+}
+
+article.n-child > section:nth-of-type(even) {
+  border: 1px solid black;
+  margin: 1px;
+}
